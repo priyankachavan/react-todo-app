@@ -13,13 +13,14 @@ class App extends Component {
       <Router>
         <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="https://codingthesmartway.com" target="_blank">
+          
+          <a className="navbar-brand" href="https://codingthesmartway.com" target="_blank">
               <img src={logo} width="30" height="30" alt="CodingTheSmartWay.com" />
             </a>
           <Link to="/" className="navbar-brand">MERN-Stack Todo App</Link>
-          <div className="collapse navbar-collaspe">
+          <div className="collapse navbar-collaspe show">
             <ul className="navbar-nav mr-auto">
-              <li className="navbar-item"> 
+              <li className="navbar-item active"> 
                 <Link to="/" className="nav-link">Todos</Link>
               </li>
               <li className="navbar-item"> 
